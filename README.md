@@ -8,7 +8,7 @@ Users can search for images using keywords and view high-quality photos fetched 
 ## 🌐 Live Demo
 
 🔗 **Live Website:**  
-YOUR_LIVE_VERCEL_URL
+https://unsplash-image-search-mocha.vercel.app/
 
 ---
 
@@ -48,13 +48,4 @@ If no images are found, the application displays a user-friendly **"No Results F
 | ⚡ Vite | Development and build tool |
 | 📄 HTML5 | Application structure |
 
----
 
-## 📸 Screenshots
-
-### 🔍 Search Interface
-
-Add your project screenshot here:
-
-```md
-![Search Interface](./screenshots/search.png)
