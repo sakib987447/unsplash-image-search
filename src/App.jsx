@@ -53,7 +53,6 @@ function App() {
 
       </div>
 
-
       {/* 
         Agar search kiya hai aur result 0 hai,
         to "No Results Found" message show hoga
@@ -75,7 +74,6 @@ function App() {
         </div>
       )}
 
-
       {/* 
         Agar images available hain,
         to images display hongi
@@ -94,7 +92,6 @@ function App() {
 
         </div>
       )}
-
     </>
   )
 }
