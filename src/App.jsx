@@ -15,7 +15,7 @@ function App() {
 
     // API ko request bhej rahe hain
     const response = await fetch(
-      `https://api.unsplash.com/search/photos?client_id=VUYfp9Bp-1oMNnbxJLGDYc2KAUGPfoY4noJaCpEi5fY&query=${value}&orientation=squarish`
+      `https://api.unsplash.com/search/photos?client_id=${import.meta.env.VITE_UNSPLASH_ACCESS_KEY}&query=${value}&orientation=squarish`
     );
 
     // API response ko JSON mein convert kar rahe hain
@@ -25,7 +25,7 @@ function App() {
     console.log(data);
 
     // API ke results ko result state mein store kar rahe hain
-setResult(data.results || []);
+    setResult(data.results || []);
   }
 
   return (
